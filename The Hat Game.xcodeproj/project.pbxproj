@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8805F60E1B9DFC1600F8230C /* beep-09.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8805F60D1B9DFC1600F8230C /* beep-09.mp3 */; };
+		889D9D421B9DF13D00207E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D411B9DF13D00207E04 /* AppDelegate.swift */; };
+		889D9D451B9DF13D00207E04 /* The_Hat_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D431B9DF13D00207E04 /* The_Hat_Game.xcdatamodeld */; };
+		889D9D5B1B9DF13D00207E04 /* The_Hat_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D5A1B9DF13D00207E04 /* The_Hat_GameTests.swift */; };
+		889D9D671B9DF20000207E04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889D9D661B9DF20000207E04 /* Images.xcassets */; };
+		889D9D791B9DF22500207E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889D9D681B9DF22500207E04 /* Main.storyboard */; };
+		889D9D7A1B9DF22500207E04 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 889D9D691B9DF22500207E04 /* Localizable.strings */; };
+		889D9D7B1B9DF22500207E04 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D6A1B9DF22500207E04 /* AboutVC.swift */; };
+		889D9D7C1B9DF22500207E04 /* NewGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D6B1B9DF22500207E04 /* NewGameVC.swift */; };
+		889D9D7D1B9DF22500207E04 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D6C1B9DF22500207E04 /* GameVC.swift */; };
+		889D9D7E1B9DF22500207E04 /* ResultsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D6D1B9DF22500207E04 /* ResultsTVC.swift */; };
+		889D9D7F1B9DF22500207E04 /* AddDictionaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D6E1B9DF22500207E04 /* AddDictionaryVC.swift */; };
+		889D9D801B9DF22500207E04 /* DictionaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D6F1B9DF22500207E04 /* DictionaryCell.swift */; };
+		889D9D811B9DF22500207E04 /* DictionariesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D701B9DF22500207E04 /* DictionariesTVC.swift */; };
+		889D9D821B9DF22500207E04 /* WordsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D711B9DF22500207E04 /* WordsTVC.swift */; };
+		889D9D831B9DF22500207E04 /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D721B9DF22500207E04 /* Pair.swift */; };
+		889D9D841B9DF22500207E04 /* Hat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D731B9DF22500207E04 /* Hat.swift */; };
+		889D9D851B9DF22500207E04 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D741B9DF22500207E04 /* Game.swift */; };
+		889D9D861B9DF22500207E04 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D751B9DF22500207E04 /* DictionaryExtension.swift */; };
+		889D9D871B9DF22500207E04 /* WordExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D761B9DF22500207E04 /* WordExtension.swift */; };
+		889D9D881B9DF22500207E04 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D771B9DF22500207E04 /* Word.swift */; };
+		889D9D891B9DF22500207E04 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D781B9DF22500207E04 /* Dictionary.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		889D9D551B9DF13D00207E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889D9D341B9DF13D00207E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889D9D3B1B9DF13D00207E04;
+			remoteInfo = "The Hat Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8805F60D1B9DFC1600F8230C /* beep-09.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beep-09.mp3"; sourceTree = "<group>"; };
+		889D9D3C1B9DF13D00207E04 /* The Hat Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Hat Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		889D9D401B9DF13D00207E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889D9D411B9DF13D00207E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		889D9D441B9DF13D00207E04 /* The_Hat_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Hat_Game.xcdatamodel; sourceTree = "<group>"; };
+		889D9D541B9DF13D00207E04 /* The Hat GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Hat GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		889D9D591B9DF13D00207E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889D9D5A1B9DF13D00207E04 /* The_Hat_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Hat_GameTests.swift; sourceTree = "<group>"; };
+		889D9D661B9DF20000207E04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		889D9D681B9DF22500207E04 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		889D9D691B9DF22500207E04 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		889D9D6A1B9DF22500207E04 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		889D9D6B1B9DF22500207E04 /* NewGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameVC.swift; sourceTree = "<group>"; };
+		889D9D6C1B9DF22500207E04 /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		889D9D6D1B9DF22500207E04 /* ResultsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTVC.swift; sourceTree = "<group>"; };
+		889D9D6E1B9DF22500207E04 /* AddDictionaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDictionaryVC.swift; sourceTree = "<group>"; };
+		889D9D6F1B9DF22500207E04 /* DictionaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryCell.swift; sourceTree = "<group>"; };
+		889D9D701B9DF22500207E04 /* DictionariesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionariesTVC.swift; sourceTree = "<group>"; };
+		889D9D711B9DF22500207E04 /* WordsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsTVC.swift; sourceTree = "<group>"; };
+		889D9D721B9DF22500207E04 /* Pair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
+		889D9D731B9DF22500207E04 /* Hat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hat.swift; sourceTree = "<group>"; };
+		889D9D741B9DF22500207E04 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		889D9D751B9DF22500207E04 /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		889D9D761B9DF22500207E04 /* WordExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordExtension.swift; sourceTree = "<group>"; };
+		889D9D771B9DF22500207E04 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		889D9D781B9DF22500207E04 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889D9D391B9DF13D00207E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889D9D511B9DF13D00207E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8805F60F1B9E029500F8230C /* Dictionaries */ = {
+			isa = PBXGroup;
+			children = (
+				889D9D431B9DF13D00207E04 /* The_Hat_Game.xcdatamodeld */,
+				889D9D751B9DF22500207E04 /* DictionaryExtension.swift */,
+				889D9D761B9DF22500207E04 /* WordExtension.swift */,
+				889D9D771B9DF22500207E04 /* Word.swift */,
+				889D9D781B9DF22500207E04 /* Dictionary.swift */,
+			);
+			name = Dictionaries;
+			sourceTree = "<group>";
+		};
+		8805F6101B9E02B400F8230C /* Game Model */ = {
+			isa = PBXGroup;
+			children = (
+				889D9D721B9DF22500207E04 /* Pair.swift */,
+				889D9D731B9DF22500207E04 /* Hat.swift */,
+				889D9D741B9DF22500207E04 /* Game.swift */,
+			);
+			name = "Game Model";
+			sourceTree = "<group>";
+		};
+		889D9D331B9DF13D00207E04 = {
+			isa = PBXGroup;
+			children = (
+				889D9D3E1B9DF13D00207E04 /* The Hat Game */,
+				889D9D571B9DF13D00207E04 /* The Hat GameTests */,
+				889D9D3D1B9DF13D00207E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		889D9D3D1B9DF13D00207E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				889D9D3C1B9DF13D00207E04 /* The Hat Game.app */,
+				889D9D541B9DF13D00207E04 /* The Hat GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		889D9D3E1B9DF13D00207E04 /* The Hat Game */ = {
+			isa = PBXGroup;
+			children = (
+				889D9D681B9DF22500207E04 /* Main.storyboard */,
+				889D9D691B9DF22500207E04 /* Localizable.strings */,
+				889D9D6A1B9DF22500207E04 /* AboutVC.swift */,
+				889D9D6B1B9DF22500207E04 /* NewGameVC.swift */,
+				889D9D6C1B9DF22500207E04 /* GameVC.swift */,
+				889D9D6D1B9DF22500207E04 /* ResultsTVC.swift */,
+				889D9D6E1B9DF22500207E04 /* AddDictionaryVC.swift */,
+				889D9D6F1B9DF22500207E04 /* DictionaryCell.swift */,
+				889D9D701B9DF22500207E04 /* DictionariesTVC.swift */,
+				889D9D711B9DF22500207E04 /* WordsTVC.swift */,
+				8805F6101B9E02B400F8230C /* Game Model */,
+				8805F60F1B9E029500F8230C /* Dictionaries */,
+				889D9D3F1B9DF13D00207E04 /* Supporting Files */,
+			);
+			path = "The Hat Game";
+			sourceTree = "<group>";
+		};
+		889D9D3F1B9DF13D00207E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8805F60D1B9DFC1600F8230C /* beep-09.mp3 */,
+				889D9D661B9DF20000207E04 /* Images.xcassets */,
+				889D9D411B9DF13D00207E04 /* AppDelegate.swift */,
+				889D9D401B9DF13D00207E04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		889D9D571B9DF13D00207E04 /* The Hat GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				889D9D5A1B9DF13D00207E04 /* The_Hat_GameTests.swift */,
+				889D9D581B9DF13D00207E04 /* Supporting Files */,
+			);
+			path = "The Hat GameTests";
+			sourceTree = "<group>";
+		};
+		889D9D581B9DF13D00207E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				889D9D591B9DF13D00207E04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		889D9D3B1B9DF13D00207E04 /* The Hat Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889D9D5E1B9DF13D00207E04 /* Build configuration list for PBXNativeTarget "The Hat Game" */;
+			buildPhases = (
+				889D9D381B9DF13D00207E04 /* Sources */,
+				889D9D391B9DF13D00207E04 /* Frameworks */,
+				889D9D3A1B9DF13D00207E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Hat Game";
+			productName = "The Hat Game";
+			productReference = 889D9D3C1B9DF13D00207E04 /* The Hat Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		889D9D531B9DF13D00207E04 /* The Hat GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889D9D611B9DF13D00207E04 /* Build configuration list for PBXNativeTarget "The Hat GameTests" */;
+			buildPhases = (
+				889D9D501B9DF13D00207E04 /* Sources */,
+				889D9D511B9DF13D00207E04 /* Frameworks */,
+				889D9D521B9DF13D00207E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889D9D561B9DF13D00207E04 /* PBXTargetDependency */,
+			);
+			name = "The Hat GameTests";
+			productName = "The Hat GameTests";
+			productReference = 889D9D541B9DF13D00207E04 /* The Hat GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		889D9D341B9DF13D00207E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Руслан Тхакохов";
+				TargetAttributes = {
+					889D9D3B1B9DF13D00207E04 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					889D9D531B9DF13D00207E04 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 889D9D3B1B9DF13D00207E04;
+					};
+				};
+			};
+			buildConfigurationList = 889D9D371B9DF13D00207E04 /* Build configuration list for PBXProject "The Hat Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 889D9D331B9DF13D00207E04;
+			productRefGroup = 889D9D3D1B9DF13D00207E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				889D9D3B1B9DF13D00207E04 /* The Hat Game */,
+				889D9D531B9DF13D00207E04 /* The Hat GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889D9D3A1B9DF13D00207E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889D9D791B9DF22500207E04 /* Main.storyboard in Resources */,
+				889D9D7A1B9DF22500207E04 /* Localizable.strings in Resources */,
+				889D9D671B9DF20000207E04 /* Images.xcassets in Resources */,
+				8805F60E1B9DFC1600F8230C /* beep-09.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889D9D521B9DF13D00207E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		889D9D381B9DF13D00207E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889D9D421B9DF13D00207E04 /* AppDelegate.swift in Sources */,
+				889D9D881B9DF22500207E04 /* Word.swift in Sources */,
+				889D9D821B9DF22500207E04 /* WordsTVC.swift in Sources */,
+				889D9D451B9DF13D00207E04 /* The_Hat_Game.xcdatamodeld in Sources */,
+				889D9D851B9DF22500207E04 /* Game.swift in Sources */,
+				889D9D7B1B9DF22500207E04 /* AboutVC.swift in Sources */,
+				889D9D861B9DF22500207E04 /* DictionaryExtension.swift in Sources */,
+				889D9D7D1B9DF22500207E04 /* GameVC.swift in Sources */,
+				889D9D831B9DF22500207E04 /* Pair.swift in Sources */,
+				889D9D7F1B9DF22500207E04 /* AddDictionaryVC.swift in Sources */,
+				889D9D801B9DF22500207E04 /* DictionaryCell.swift in Sources */,
+				889D9D871B9DF22500207E04 /* WordExtension.swift in Sources */,
+				889D9D811B9DF22500207E04 /* DictionariesTVC.swift in Sources */,
+				889D9D841B9DF22500207E04 /* Hat.swift in Sources */,
+				889D9D891B9DF22500207E04 /* Dictionary.swift in Sources */,
+				889D9D7E1B9DF22500207E04 /* ResultsTVC.swift in Sources */,
+				889D9D7C1B9DF22500207E04 /* NewGameVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889D9D501B9DF13D00207E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889D9D5B1B9DF13D00207E04 /* The_Hat_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		889D9D561B9DF13D00207E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889D9D3B1B9DF13D00207E04 /* The Hat Game */;
+			targetProxy = 889D9D551B9DF13D00207E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		889D9D5C1B9DF13D00207E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		889D9D5D1B9DF13D00207E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		889D9D5F1B9DF13D00207E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Hat Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		889D9D601B9DF13D00207E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Hat Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		889D9D621B9DF13D00207E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The Hat GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Hat Game.app/The Hat Game";
+			};
+			name = Debug;
+		};
+		889D9D631B9DF13D00207E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The Hat GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Hat Game.app/The Hat Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		889D9D371B9DF13D00207E04 /* Build configuration list for PBXProject "The Hat Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889D9D5C1B9DF13D00207E04 /* Debug */,
+				889D9D5D1B9DF13D00207E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889D9D5E1B9DF13D00207E04 /* Build configuration list for PBXNativeTarget "The Hat Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889D9D5F1B9DF13D00207E04 /* Debug */,
+				889D9D601B9DF13D00207E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889D9D611B9DF13D00207E04 /* Build configuration list for PBXNativeTarget "The Hat GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889D9D621B9DF13D00207E04 /* Debug */,
+				889D9D631B9DF13D00207E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		889D9D431B9DF13D00207E04 /* The_Hat_Game.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				889D9D441B9DF13D00207E04 /* The_Hat_Game.xcdatamodel */,
+			);
+			currentVersion = 889D9D441B9DF13D00207E04 /* The_Hat_Game.xcdatamodel */;
+			path = The_Hat_Game.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 889D9D341B9DF13D00207E04 /* Project object */;
+}
